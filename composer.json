@@ -1,6 +1,6 @@
 {
     "name": "martinbean/dribbble-php",
-    "description": "PHP wrapper for the Dribbble API.",
+    "description": "PHP client for the Dribbble API.",
     "version": "3.0.0",
     "type": "library",
     "keywords": [
@@ -15,9 +15,6 @@
             "name": "Martin Bean",
             "email": "martin@martinbean.co.uk",
             "homepage": "http://www.martinbean.co.uk"
-        },
-        {
-            "name": "Zach Dunn"
         }
     ],
     "support": {
@@ -29,6 +26,6 @@
         }
     },
     "require": {
-        "php": ">=5.3.0"
+        "guzzlehttp/guzzle": "~5.0"
     }
 }
