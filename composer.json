@@ -1,7 +1,7 @@
 {
     "name": "martinbean/dribbble-php",
     "description": "PHP wrapper for the Dribbble API.",
-    "version": "2.2.0",
+    "version": "3.0.0",
     "type": "library",
     "keywords": [
         "dribbble",
@@ -21,11 +21,11 @@
         }
     ],
     "support": {
-        "email": "martin@martinbean.co.uk"
+        "issues": "https://github.com/martinbean/dribbble-php/issues"
     },
     "autoload": {
-        "psr-0": {
-            "Dribbble": "src"
+        "psr-4": {
+            "Dribbble\\": "src/"
         }
     },
     "require": {
